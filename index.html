@@ -1,0 +1,196 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=c, initial-scale=1.0" />
+    <title>Our services</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+    />
+  </head>
+  <style>
+    body{
+        background-color: white;
+    }
+
+
+    .content {
+        flex-wrap: wrap;
+        display: flex;
+        justify-content: center;
+    }
+
+    .content-of-service p {
+        width: 200px;
+    }
+
+    .top {
+        text-align: center;
+    }
+
+    h2,
+    h3 {
+        color: black;
+        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+
+
+    p {
+        font-family: "dosis";
+    }
+
+    .circle {
+        background-color: pink;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 70px;
+        height: 70px;
+        border-radius: 50%;
+        color: rgb(255, 255, 255);
+    }
+
+    .Container {
+        background-color: transparent;
+    }
+
+    .Service-Container {
+        margin-left: 10px;
+        display: flex;
+        align-items: center;
+        padding: 10px;
+        gap: 10px;
+        border: none;
+        flex-direction: row;
+        border-radius: 20px;
+    }
+
+    .Service-Container div .content-of-service {
+        display: flex;
+        flex-direction: column;
+    }
+
+    i {
+        font-size: 26px;
+        border-radius: 50%;
+    }
+
+    .top > h2{
+      color: pink;
+      text-transform: uppercase;
+    }
+
+    .Service-Container:hover{
+        box-shadow: 3px 9px 10px 0px rgba(255, 192, 203, 0.418);    
+        transition: box-shadow 0.1s, border 130ms;
+        border: 2.5px solid pink;
+        .Title{
+            color: pink;
+            margin-top: -1px;
+            transition: margin-top 200ms;
+        }
+        .circle{
+            box-shadow: -5px 8px 30px 0px rgba(255, 0, 21, 0.144);
+            transition: box-shadow 10ms;
+        }
+    }
+
+  </style>
+  <body>
+    <div class="Container">
+      <div class="top">
+        <h2>Our Services</h2>
+        <p>
+          Lorem ipsum, dolor sit amet consectetur
+          adipisicing elit. Optio tempore beatae
+          voluptates modi cumque
+        </p>  
+      </div>
+      <div class="content">
+        <div class="Service-Container">
+          <div class="circle">
+            <i class="far fa-bell"></i>
+          </div>
+          <div >
+            <h3 class="Title">Consulting</h3>
+            <p>
+              Lorem ipsum, dolor sit amet consectetur <br />
+              adipisicing elit. Optio tempore beatae <br />
+              voluptates modi cumque
+            </p>
+          </div>
+        </div>
+
+        <div class="Service-Container">
+          <div class="circle">
+            <i class="far fa-hdd"></i>
+          </div>
+          <div >
+            <h3 class="Title">Strategy</h3>
+            <p>
+              Lorem ipsum, dolor sit amet consectetur <br />
+              adipisicing elit. Optio tempore beatae <br />
+              voluptates modi cumque
+            </p>
+          </div>
+        </div>
+
+        <div class="Service-Container">
+          <div class="circle">
+            <i class="far fa-lightbulb"></i>
+          </div>
+          <div>
+            <h3 class="Title">Analysis</h3>
+            <p>
+              Lorem ipsum, dolor sit amet consectetur <br />
+              adipisicing elit. Optio tempore beatae <br />
+              voluptates modi cumque
+            </p>
+          </div>
+        </div>
+
+        <div class="Service-Container">
+          <div class="circle">
+            <i class="fa fa-code"></i>
+          </div>
+          <div>
+            <h3 class="Title">Investment</h3>
+            <p>
+              Lorem ipsum, dolor sit amet consectetur <br />
+              adipisicing elit. Optio tempore beatae <br />
+              voluptates modi cumque
+            </p>
+          </div>
+        </div>
+
+        <div class="Service-Container">
+          <div class="circle">
+            <i class="fas fa-compress-alt"></i>
+          </div>
+          <div>
+            <h3 class="Title">Creative</h3>
+            <p>
+              Lorem ipsum, dolor sit amet consectetur <br />
+              adipisicing elit. Optio tempore beatae <br />
+              voluptates modi cumque
+            </p>
+          </div>
+        </div>
+
+        <div class="Service-Container">
+          <div class="circle">
+            <i class="fab fa-html5"></i>
+          </div>
+          <div>
+            <h3 class="Title">24/7 Support</h3>
+            <p>
+              Lorem ipsum, dolor sit amet consectetur <br />
+              adipisicing elit. Optio tempore beatae <br />
+              voluptates modi cumque
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
